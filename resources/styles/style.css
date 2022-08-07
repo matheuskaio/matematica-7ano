@@ -48,7 +48,8 @@ h1 {
 }
 
 .card,
-.cardcolor {
+.cardcolor,
+.cardcolorverde{ 
   padding: 30px;
   border: 2px solid #000;
   margin: 20px auto;
@@ -56,7 +57,13 @@ h1 {
 
 .cardcolor {
   border: none;
-  background: #7fc4ec;
+  background: #D7EAD9;
+  border-radius: 8px;
+}
+
+.cardcolorverde{
+  border: none;
+  background: #8cd8c1;
   border-radius: 8px;
 }
 
@@ -82,8 +89,11 @@ h1 {
 .subtitulo {
   font-size: 42px;
   font-weight: bold;
-  color: #0080c8;
+  color: #000;
   margin-bottom: 30px;
+}
+.calibre3{
+  color: #009640;;
 }
 
 .subtitulo,
@@ -122,7 +132,7 @@ h1 {
 
 .pg {
   padding: 4px;
-  background: #0080c8;
+  background: #009640;;
   display: inline-block;
   border-radius: 10px;
   color: #fff;
@@ -338,3 +348,26 @@ ul {
     flex-direction: column;
   }
 }
+
+.text-color-green {
+  color: #009640;
+}
+
+
+.card-com-fundo-cinza {
+  padding: 20px;
+  background-color: #F1F1F1;
+  margin: 20px auto;
+}
+
+.card-color-fundo-amarelo-claro{
+  padding: 20px;
+  background-color: #FFF7E2;
+  margin: 20px auto;
+}
+
+.forcar-topo{
+  align-items: flex-start;
+}
+
+
